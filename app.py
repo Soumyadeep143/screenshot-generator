@@ -6,7 +6,7 @@ import time
 app = Flask(__name__)
 
 # API key for ScreenshotBase
-API_KEY = os.getenv("SCREENSHOTBASE_API_KEY", "scr_live_DEC7oNEupl5DlQ6fYKI4bF2sVanBZbinRZio8GAY")
+API_KEY = os.getenv("SCREENSHOTBASE_API_KEY", "")
 SCREENSHOTBASE_BASE_ENDPOINT = "https://api.screenshotbase.com/v1/take"
 
 # Ensure 'static' folder exists for saving screenshots
